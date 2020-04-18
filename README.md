@@ -1,23 +1,52 @@
-mod1
+# Water and terrain simulation
+
+![screenshot](screenshot/waterSim1.gif)
+
+## Basics
+
+- C++11
+
+- OpenGL 2.1
+
+- GLSL 1.20
 
 
-make install
+## Dependencies
 
-make
+- glfw 3.3.2
+
+- glew 2.1.0
+
+- glm 0.9.9.5
+
+- sfml 2.5.1
+
+- boost 1.72.0
 
 
-usage:  ./mod1 surface_file [water_file]
+## Install
 
-example:./mod1 map/demo1.mod1 map/water.txt
+- make
 
-[ENTER] - start
+I only tested and run this simulation on MacOS (Mojave, HighSierra, Catalina)
 
-[SPACE] - stop
 
-[1] - water  [2] - rain  [3] - snow
+## Usage
 
-[Z] - sound  [X] - mute
+./mod surface_file [water_file]
 
-[<] - slow   [>] - fast
+example: ./mod map/demo1.mod map/water.mod
 
-[-] - leak   [+] - rise   [0] - none
+- [ENTER] - start
+
+- [SPACE] - stop
+
+- [ASDW, mouse] - camera control
+
+- [1] - water  [2] - rain  [3] - snow
+
+- [Z] - sound  [X] - mute
+
+- [<] - slow   [>] - fast
+
+- [-] - leak   [+] - rise   [0] - none
