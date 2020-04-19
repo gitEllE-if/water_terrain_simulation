@@ -49,13 +49,13 @@ example: `./mod map/demo1.mod map/water.mod`
 
 - `[ENTER]` - start
 - `[SPACE]` - stop
-- `[ASDW, mouse]` - camera control
+- `[ASDW  mouse]` - camera control
 - `[1]` - water  `[2]` - rain  `[3]` - snow
 - `[Z]` - sound  `[X]` - mute
 - `[<]` - slow   `[>]` - fast
 - `[-]` - leak   `[+]` - rise   `[0]` - none
-- `[{, arrow]` - water leak at the border
-- `[}, arrow]` - water rise at the border
+- `[ { arrow]` - water leak at the border
+- `[ } arrow]` - water rise at the border
 - `[p]` - none water leak/rise at the border
 
 
