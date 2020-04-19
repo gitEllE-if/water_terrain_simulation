@@ -60,8 +60,13 @@ example: `./mod map/demo1.mod map/water.mod`
 
 
 ***water***
+
 ![screenshot](screenshot/water1.png)
+
 ***rain***
+
 ![screenshot](screenshot/water2.png)
+
 ***snow***
+
 ![screenshot](screenshot/water3.png)
