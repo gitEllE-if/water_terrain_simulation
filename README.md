@@ -50,3 +50,8 @@ example: ./mod map/demo1.mod map/water.mod
 - [<] - slow   [>] - fast
 
 - [-] - leak   [+] - rise   [0] - none
+
+![screenshot](screenshot/water1.png)
+![screenshot](screenshot/water2.png)
+![screenshot](screenshot/water3.png)
+
