@@ -4,8 +4,7 @@ This project is about water flow simulation on terrain
 
 ![screenshot](screenshot/waterSim1.gif)
 
-## Terrain modeling
-
+## Terrain modeling 🏔
 Program gets external file as first parameter that contains terrain map (map/demoX.mod). It is a series of coordinates in 3D. They define a few sparse points through which surface will imperatively go across. It can be either 2, 10 or 20 points for example (not more than 50).
 ```
 map/demo2: (10000,10000,6000) (15000,10000,100) (15000,15000,4000)
@@ -13,8 +12,7 @@ map/demo2: (10000,10000,6000) (15000,10000,100) (15000,15000,4000)
 [IDW interpolation algoritm](https://gisgeography.com/inverse-distance-weighting-idw-interpolation/) is used to represent a surface that goes through those points.
 
 
-## Water modeling
-
+## Water modeling 🧊
 Height field based water simulation using ["pipe model"](https://docplayer.net/20844600-Real-time-fluid-simulation-using-height-fields.html)
 The water is represented as a set of columns, water surface is described by the height of the columns.  Each column connected to 4 neighbors with "virtual pipes". 
 Program gets as an second parameter an external file containing the initial map of water heights (map/waterXXX.mod)
@@ -59,14 +57,14 @@ example: `./mod map/demo1.mod map/water.mod`
 - `[p]` - none water leak/rise at the border
 
 
-***water***
+💧***water***
 
 ![screenshot](screenshot/water1.png)
 
-***rain***
+🌧***rain***
 
 ![screenshot](screenshot/water2.png)
 
-***snow***
+❄️ ***snow***
 
 ![screenshot](screenshot/water3.png)
