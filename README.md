@@ -9,7 +9,7 @@ Program gets external file as first parameter that contains terrain map (map/dem
 ```
 map/demo2: (10000,10000,6000) (15000,10000,100) (15000,15000,4000)
 ```
-[IDW interpolation algoritm](https://gisgeography.com/inverse-distance-weighting-idw-interpolation/) is used to represent a surface that goes through those points.
+[IDW interpolation algorithm](https://gisgeography.com/inverse-distance-weighting-idw-interpolation/) is used to represent a surface that goes through those points.
 
 
 ## Water modeling 🧊
